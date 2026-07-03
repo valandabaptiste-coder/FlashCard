@@ -1,21 +1,22 @@
 *{
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+
+margin: 0;/*espaço ao redor dos elementos*/
+padding: 0;/*espaçamento interno dos elementos*/
 }
+
 .cabecalho {
 padding: 15px 25px;
-
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: ;
 }
 
 .cartao {
-width: 260px;
-height: 200px;
+width: 260px;/*largura*/
+height: 200px;/*altura*/
 }
 
 .cartao-imagem {
-width: 100%;
-} 
-
-
-
+width: 100%; /*faz a imagem ocupar 100% da largura do cartão */
+}
