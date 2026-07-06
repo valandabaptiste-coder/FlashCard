@@ -1,7 +1,6 @@
 *{
-
-margin: 0;/*espaço ao redor dos elementos*/
-padding: 0;/*espaçamento interno dos elementos*/
+    margin: 0;
+    padding: 0;
 }
 
 .cabecalho {
@@ -9,8 +8,8 @@ padding: 15px 25px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-background-color: ;
-}
+background-color: #7e3e1c;
+]
 
 .cartao {
 width: 260px;/*largura*/
